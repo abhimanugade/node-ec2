@@ -1,11 +1,17 @@
 
 const http = require("http");
 
-const data = {
+const data = [{
     name: "Abhijeet",
     role: "Node.js Developer",
     skills: ["Node.js", "JavaScript", "React.js"]
-};
+}, {
+    name: "John",
+    role: "Frontend Developer",
+    skills: ["HTML", "CSS", "JavaScript"]
+}
+
+];
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, {
