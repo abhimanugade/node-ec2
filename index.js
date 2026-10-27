@@ -13,6 +13,11 @@ const data = [{
   name: "Jane",
   role: "Backend Developer",
   skills: ["Node.js", "Express.js", "MongoDB"]
+},
+{
+  name: "adam",
+  role: "Full Stack Developer",
+  skills: ["Node.js", "React.js", "MongoDB"]
 }
 
 ];
