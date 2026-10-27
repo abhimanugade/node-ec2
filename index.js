@@ -2,23 +2,28 @@
 const http = require("http");
 
 const data = [{
-    name: "Abhijeet",
-    role: "Node.js Developer",
-    skills: ["Node.js", "JavaScript", "React.js"]
+  name: "Abhijeet",
+  role: "Node.js Developer",
+  skills: ["Node.js", "JavaScript", "React.js"]
 }, {
-    name: "John",
-    role: "Frontend Developer",
-    skills: ["HTML", "CSS", "JavaScript"]
+  name: "John",
+  role: "Frontend Developer",
+  skills: ["HTML", "CSS", "JavaScript"]
+}
+{
+  name: "Jane",
+  role: "Backend Developer",
+  skills: ["Node.js", "Express.js", "MongoDB"]S
 }
 
 ];
 
 const server = http.createServer((req, res) => {
-    res.writeHead(200, {
-        "Content-Type": "text/html; charset=utf-8"
-    });
+  res.writeHead(200, {
+    "Content-Type": "text/html; charset=utf-8"
+  });
 
-    res.end(`
+  res.end(`
     <!DOCTYPE html>
     <html>
       <head>
@@ -33,5 +38,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(4500, () => {
-    console.log("Server running at http://localhost:4500");
+  console.log("Server running at http://localhost:4500");
 });
