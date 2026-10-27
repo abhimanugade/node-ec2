@@ -9,11 +9,10 @@ const data = [{
   name: "John",
   role: "Frontend Developer",
   skills: ["HTML", "CSS", "JavaScript"]
-}
-{
+}, {
   name: "Jane",
   role: "Backend Developer",
-  skills: ["Node.js", "Express.js", "MongoDB"]S
+  skills: ["Node.js", "Express.js", "MongoDB"]
 }
 
 ];
